@@ -1,0 +1,89 @@
+.hero {
+  max-width: 620px;
+  margin-bottom: 48px;
+}
+
+.hero-eyebrow {
+  font-size: 14px;
+  color: #a5473f;
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-family: "Newsreader", serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 0 0 28px;
+  color: #241a2c;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 1px solid #ded9c4;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfaf3;
+  color: #241a2c;
+  outline: none;
+}
+
+.search-form input:focus {
+  border-color: #3b2145;
+}
+
+.search-form button {
+  padding: 0 24px;
+  border: none;
+  border-radius: 6px;
+  background: #a5473f;
+  color: #f8f4e9;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #8f3c35;
+}
+
+.surprise-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #3b2145;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.results h2 {
+  font-family: "Newsreader", serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0 0 20px;
+  color: #241a2c;
+}
+
+.status-msg {
+  color: #6b6551;
+  font-size: 15px;
+}
+
+.status-msg.error {
+  color: #a5473f;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 22px;
+}
